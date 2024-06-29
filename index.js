@@ -1,6 +1,6 @@
 import express from 'express'
 import colors from 'colors'
-import { errorHandler, notFound } from './middlewares/error.middleware';
+import { errorHandler, notFound } from './middlewares/error.middleware.js';
 
 const app = express();
 
